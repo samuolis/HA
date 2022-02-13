@@ -1,0 +1,5 @@
+{
+    "name": "Eldes security integration",
+    "domains": ["binary_sensor"],
+    "iot_class": ["Cloud Polling"]
+  }
