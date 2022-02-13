@@ -8,7 +8,7 @@ from homeassistant.core import HomeAssistant
 from eldes import EldesClient
 from .const import DOMAIN, HOST_DEVICE_ID, USERNAME, PASSWORD, COORDINATOR
 
-PLATFORMS: list[Platform] = [Platform.SENSOR]
+PLATFORMS = [Platform.BINARY_SENSOR]
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
